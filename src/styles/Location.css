@@ -1,0 +1,21 @@
+.location__container {
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+}
+.location__title {
+   margin: 30px;
+}
+.location__list {
+   display: flex;
+   justify-content: space-around;
+}
+.location__item {
+   display: flex;
+   flex-direction: column;
+   gap: 2px;
+   font-weight: 500;
+}
+.location__span {
+   color: #ccc9;
+}

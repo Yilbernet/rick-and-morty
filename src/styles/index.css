@@ -1,0 +1,86 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --background-body: #06292e;
+  --background-cards: #062226;
+}
+/* ----- Reset ----- */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: var(--background-body);
+  color: white;
+}
+h1, h2, h3, h4, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+img {
+  display: block;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+input {
+  width: 250px;
+  outline: none;
+}
+.App {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.banner {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.title {
+  width: max-content;
+  margin: 50px auto;
+}
+.form {
+  width: max-content;
+  margin: 0 auto;
+}
+.form__in {
+  width: 60vw;
+  max-width: 1024px;
+  height: 25px;
+}
+.form__btn {
+  height: 25px;
+}
+.filter {
+  cursor: pointer;
+}
+.subTitle {
+  margin: 35px;
+  margin-left: 100px;
+}
+.card__container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fail {
+  margin: 50px auto;
+  width: max-content;
+  line-height: 3rem;
+}
